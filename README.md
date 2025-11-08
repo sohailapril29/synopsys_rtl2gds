@@ -51,7 +51,7 @@ which verdi
 
 ---
 
-## 4. Create a env_file inside RTL folder and ## Demo
+## 4. Create a env_file inside RTL folder and
 
 
 
