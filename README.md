@@ -1,7 +1,7 @@
 # Pre SignOFF RTL2GDS Using SYNOPSYS Tools
 
 
-
+🚀 [Live Demo](https://youtu.be/o_03zqJgs8g?si=-PwOWG3l46TTLG-C)
 
 ## 1. Inputs for Synthesis
 
@@ -118,7 +118,7 @@ elaborate ${DESIGN_NAME}
 ```
 
 ```
-stat_gui
+start_gui
 ```
 
 ```
@@ -212,7 +212,7 @@ read_verilog {./../DC/results/full_adder.mapped.v} -library FULL_ADDER_LIB -desi
 ```
 
 ```
-stat_gui
+start_gui
 ```
 
 ```
@@ -606,6 +606,6 @@ start_gui
 ```
 
 
-🚀 [Live Demo](https://youtu.be/o_03zqJgs8g)
+
 
 
