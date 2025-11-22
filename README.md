@@ -72,7 +72,8 @@ then save the file and type below command
 ```
 source env_file
 ```
-navagiate to RTL folder and type 
+## 5. Navagiate to RTL folder and type 
+
 ```
 vcs design.v testbench.v -lca -kdb -debug_access+all -full64
 ```
@@ -110,7 +111,7 @@ analyze -format verilog ${RTL_SOURCE_FILES}
 ```
 
 ```
-open dc_shell using command stat_gui
+open dc_shell using command start_gui
 ```
 
 ```
@@ -154,7 +155,7 @@ report_timing
 ```
 
 ```
-write_sdc ./results/full_adder.sdc
+write -format verilog -hierarchy -output ${RESULTS_DIR} {DCRM_FINAL_VERILOG_OUTPUT_FILE}
 ```
 
 ---
